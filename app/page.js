@@ -17,7 +17,7 @@ export default function Home() {
     };
 
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbx6UpwcBUFJdZm4N6TNcpLsZizUVII8rBydHtIQxkE6SeCbaBKlers8bQ8Qk_Xbtiezgw/exec", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbxQKKYmkJdEhxMBVZvGYUtiNHfkM6o9ifdgE3FnIoLOrT7uaHSwZ2FI90xyaAV_nU1aOg/exec", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
