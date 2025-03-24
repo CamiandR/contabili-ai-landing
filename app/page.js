@@ -17,13 +17,16 @@ export default function Home() {
     };
 
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbxQKKYmkJdEhxMBVZvGYUtiNHfkM6o9ifdgE3FnIoLOrT7uaHSwZ2FI90xyaAV_nU1aOg/exec", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbz9oCC3Kvh7ZXZS7xfHZFGeJuTCXPaJYSlVlPnNJMs1PpGspVKwFiZ0k7EA7b7S1tpyYA/exec", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
           "Content-Type": "application/json",
         },
       });
+
+      
+      
 
       const result = await response.json();
 
